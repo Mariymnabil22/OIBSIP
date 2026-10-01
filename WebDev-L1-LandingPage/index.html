@@ -1,0 +1,940 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"content="Esh7enli is a mobile EV charging service that brings power directly to your location.">
+
+    <title>Esh7enli | Mobile EV Charging</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+     
+
+    <header class="navbar">
+
+        <div class="container nav-container">
+
+            <a href="#home" class="logo" aria-label="Esh7enli Home">
+                <img
+                    src="images/logo.png"
+                    alt="Esh7enli"
+                    class="logo-image"
+                >
+            </a>
+
+
+            <nav class="nav-links">
+
+                <a href="#home">Home</a>
+
+                <a href="#how-it-works">
+                    How It Works
+                </a>
+
+                <a href="#services">
+                    Services
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="#contact">
+                    Contact
+                </a>
+
+                <a href="#FAQ">
+                    FAQ
+                </a>
+
+                <a href="#request" class="nav-button">
+                Request Charging
+                </a>
+                
+
+            </nav>
+
+          
+            <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+        
+
+        <section class="hero" id="home">
+
+            <div class="hero-background">
+                <img src="images/hero.png" alt="Electric vehicle being charged">
+                <div class="hero-background-tint"></div>
+            </div>
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <div class="hero-copy-panel">
+                        <span class="eyebrow">MOBILE EV CHARGING</span>
+
+                        <h1>
+                            When your battery<br>
+                            is low, <span>we come<br>to you.</span>
+                        </h1>
+
+                        <div class="hero-tagline">INTELLIGENCE IN<br>EVERY JOULE.</div>
+                    </div>
+
+                    <div class="hero-desc-card">
+                        <p>
+                            Esh7enli brings mobile EV charging directly
+                            to your location. Request a charge, share
+                            your location, and get back on the road.
+                        </p>
+
+                        <div class="hero-buttons">
+                            <a href="#request" class="btn btn-primary">
+                                Request a Charge <span>→</span>
+                            </a>
+
+                            <a href="#how-it-works" class="btn btn-outline">
+                                How It Works
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="hero-visual">
+
+                    <div class="hero-photo">
+                        <img src="images/hero.png" alt="Electric vehicle being charged">
+
+                        <div class="hero-photo-shade"></div>
+
+                        <div class="float-card float-battery">
+                            <span class="float-label">Battery status</span>
+                            <strong class="float-value">95%</strong>
+                            <div class="float-bar"><span style="width:95%"></span></div>
+                        </div>
+
+                        <div class="float-card float-main-battery">
+                            <div class="battery-icon"><span></span></div>
+                            <strong class="float-value">95%</strong>
+                        </div>
+
+                        <div class="float-card float-eta">
+                            <span class="float-value--sm">Estimated Arrival: 12 mins</span>
+                        </div>
+
+                        <div class="route-map">
+                            <svg viewBox="0 0 420 300" aria-hidden="true">
+                                <path class="route-line" d="M25 240 C90 190, 95 100, 180 145 S285 235, 395 45"/>
+                                <path class="route-line route-line--delay" d="M15 75 C100 35, 150 105, 225 65 S330 75, 410 150"/>
+                            </svg>
+
+                            <div class="map-van">⚡</div>
+                            <div class="map-label map-label-one">Estimated Arrival: 10 mins</div>
+                            <div class="map-label map-label-two">93%</div>
+                        </div>
+
+                        <button class="hero-play" type="button" aria-label="Pause">
+                            II
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="container">
+                <div class="hero-info-bar">
+                    <div class="hero-info">
+
+                        <div class="info-item">
+                            <span class="info-icon">◷</span>
+                            <div>
+                                <strong>Simple</strong>
+                                <span>Easy experience</span>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <span class="info-icon">▱</span>
+                            <div>
+                                <strong>On-Demand</strong>
+                                <span>Charging service</span>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <span class="info-icon">↝</span>
+                            <div>
+                                <strong>Mobile</strong>
+                                <span>Delivered to you</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- ================= INTRO =================--> 
+
+        <section class="intro section">
+
+            <div class="container intro-grid">
+
+                <div>
+
+                    <span class="section-label">
+                        THE PROBLEM
+                    </span>
+
+                    <h2>
+                        Running low shouldn't
+                        mean changing your plans.
+                    </h2>
+
+                </div>
+
+
+                <div class="intro-text">
+
+                    <p>
+                        Finding an available EV charging station
+                        can take time, especially when your battery
+                        is already running low.
+                    </p>
+
+                    <p>
+                        Esh7enli is designed to bring the charging
+                        service to you instead of making you search
+                        for a station.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= HOW IT WORKS ================= -->
+
+        <section
+            class="how section"
+            id="how-it-works"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        HOW IT WORKS
+                    </span>
+
+                    <h2>
+                        Four simple steps
+                        to get moving again.
+                    </h2>
+
+                    <p>
+                        A straightforward experience designed
+                        around the driver's real situation.
+                    </p>
+
+                </div>
+
+
+                <div class="steps">
+
+                    <article class="step">
+
+                        
+
+                        <div class="step-icon">
+                            01
+                        </div>
+
+                        <h3>
+                            Request
+                        </h3>
+
+                        <p>
+                            Request mobile charging when
+                            your EV needs power.
+                        </p>
+
+                    </article>
+
+
+                    <article class="step">
+
+                        
+
+                        <div class="step-icon">
+                            02
+                        </div>
+
+                        <h3>
+                            Share Location
+                        </h3>
+
+                        <p>
+                            Tell us where your vehicle
+                            is waiting for charging.
+                        </p>
+
+                    </article>
+
+
+                    <article class="step">
+
+                        
+                        <div class="step-icon">
+                            03
+                        </div>
+
+                        <h3>
+                            Connect
+                        </h3>
+
+                        <p>
+                            Our mobile charging unit arrives
+                            and connects to your EV.
+                        </p>
+
+                    </article>
+
+
+                    <article class="step">
+
+                        
+
+                        <div class="step-icon">
+                            04
+                        </div>
+
+                        <h3>
+                            Get Back on the Road
+                        </h3>
+
+                        <p>
+                            Get the required charge and
+                            continue your journey.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section
+            class="services section"
+            id="services"
+        >
+
+            <div class="container">
+
+                <div class="section-heading left">
+
+                    <span class="section-label">
+                        OUR SERVICES
+                    </span>
+
+                    <h2>
+                        Charging support
+                        for real situations.
+                    </h2>
+
+                    <p>
+                        Flexible mobile charging solutions
+                        designed around your needs.
+                    </p>
+
+                </div>
+
+
+                <div class="service-grid">
+
+
+                    <article class="service-card">
+
+                        <div class="service-image">
+
+                            <img
+                                src="images/p2.jfif"
+                                alt="Electric vehicle charging"
+                            >
+
+                        </div>
+
+                        <div class="service-content">
+
+                            <span class="service-number">
+                                01
+                            </span>
+
+                            <h3>
+                                Emergency Charging
+                            </h3>
+
+                            <p>
+                                When your battery is too low
+                                to comfortably reach a charging station.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <div class="service-image">
+
+                            <img
+                                src="images/p3.jfif"
+                                alt="Mobile electric vehicle service"
+                            >
+
+                        </div>
+
+                        <div class="service-content">
+
+                            <span class="service-number">
+                                02
+                            </span>
+
+                            <h3>
+                                On-Demand Charging
+                            </h3>
+
+                            <p>
+                                Request mobile charging wherever
+                                you need additional power.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="service-card service-dark">
+
+                        <div class="service-symbol">
+                            ⚡
+                        </div>
+
+                        <span class="service-number">
+                            03
+                        </span>
+
+                        <h3>
+                            Fleet Support
+                        </h3>
+
+                        <p>
+                            A flexible charging solution for
+                            businesses managing multiple electric vehicles.
+                        </p>
+
+                        <a href="#request">
+                            Talk to Esh7enli →
+                        </a>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section
+            class="about section"
+            id="about"
+        >
+
+            <div class="container about-grid">
+
+                <div class="about-image">
+
+                    <img
+                        src="images/p4.jfif"
+                        alt="Electric vehicle charging"
+                    >
+
+                    <div class="image-caption">
+
+                        <strong>
+                            Power where you need it.
+                        </strong>
+
+                        <span>
+                            Built around the EV driver's journey.
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <span class="section-label">
+                        ABOUT ESH7ENLI
+                    </span>
+
+                    <h2>
+                        Your EV's
+                        <span>power bank.</span>
+                    </h2>
+
+                    <p>
+                        Esh7enli is a mobile EV charging concept
+                        designed to solve a common problem:
+                        running low on battery without a convenient
+                        charging station nearby.
+                    </p>
+
+                    <p>
+                        Instead of driving around looking for a charger,
+                        request the service and let the charging solution
+                        come to your location.
+                    </p>
+
+
+                    <ul class="check-list">
+
+                        <li>
+                            <span>✓</span>
+                            Mobile charging instead of station hunting
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Simple request-to-charge experience
+                        </li>
+
+                        <li>
+                            <span>✓</span>
+                            Designed around convenience
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= REQUEST ================= -->
+
+        <section
+            class="contact section"
+            id="contact"
+        >
+
+            <div class="container request-grid">
+
+                <div class="request-text">
+
+                    <span class="section-label">
+                        REQUEST A CHARGE
+                    </span>
+
+                    <h2>
+                        Need power?
+                        Tell us where you are.
+                    </h2>
+
+                    <p>
+                        Submit your information and request
+                        mobile EV charging from your location.
+                    </p>
+
+                    <div class="request-note">
+
+                        <span>⚡</span>
+
+                        <p>
+                            This form represents the customer
+                            entry point for the future Esh7enli service.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <form
+                    class="request-form"
+                    id="request"
+                    action="mailto:hello@esh7enli.com"
+                    method="post"
+                    enctype="text/plain"
+                >
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Full Name
+                        </label>
+
+                        <input
+                            id="name"
+                            type="text"
+                            name="name"
+                            placeholder="Your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Phone Number
+                        </label>
+
+                        <input
+                            id="phone"
+                            type="tel"
+                            name="phone"
+                            placeholder="+20 1X XXX XXXX"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group full-width">
+
+                        <label for="location">
+                            Current Location
+                        </label>
+
+                        <input
+                            id="location"
+                            type="text"
+                            name="location"
+                            placeholder="Area or location"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group full-width">
+
+                        <label for="battery">
+                            Battery Level
+                        </label>
+
+                        <select
+                            id="battery"
+                            name="battery"
+                        >
+
+                            <option value="">
+                                Select battery level
+                            </option>
+
+                            <option>
+                                0–10%
+                            </option>
+
+                            <option>
+                                11–25%
+                            </option>
+
+                            <option>
+                                26–50%
+                            </option>
+
+                            <option>
+                                51–75%
+                            </option>
+
+                            <option>
+                                76–100%
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="btn btn-primary submit-button"
+                    >
+                        Send Charging Request →
+                    </button>
+
+                    <small class="form-note">
+                        Demo front-end form for the Esh7enli landing page.
+                    </small>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FAQ ================= -->
+
+        <section class="faq section" id="FAQ">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        FAQ
+                    </span>
+
+                    <h2>
+                        Common questions.
+                    </h2>
+
+                </div>
+
+
+                <div class="faq-list">
+
+                    <details>
+
+                        <summary>
+                            How does mobile charging work?
+                        </summary>
+
+                        <p>
+                            You request a charging service,
+                            provide your location, and the
+                            mobile charging unit comes to you.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            Do I need to find a charging station?
+                        </summary>
+
+                        <p>
+                            No. The idea behind Esh7enli is to
+                            bring the charging service directly
+                            to your vehicle.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            Can businesses use Esh7enli?
+                        </summary>
+
+                        <p>
+                            Yes. The concept can also support
+                            businesses and EV fleets.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            Is this the complete Esh7enli app?
+                        </summary>
+
+                        <p>
+                            This page is the public landing page.
+                            Tracking, accounts and payments would
+                            be implemented in the complete product.
+                        </p>
+
+                    </details>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer
+        class="footer"
+        id="contact"
+    >
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a
+                    href="#home"
+                    class="logo footer-logo"
+                >
+                    
+
+                    <span>
+                        Esh7enli
+                    </span>
+                </a>
+
+                <p>
+                    Mobile EV charging,
+                    whenever you need it.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>
+                    Explore
+                </h4>
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#how-it-works">
+                    How It Works
+                </a>
+
+                <a href="#services">
+                    Services
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>
+                    Contact
+                </h4>
+
+                <a href="mailto:hello@esh7enli.com">
+                    hello@esh7enli.com
+                </a>
+
+                <a href="tel:+201000000000">
+                    +20 100 000 0000
+                </a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>
+                    Follow Us
+                </h4>
+
+                <a href="#">
+                    Instagram
+                </a>
+
+                <a href="#">
+                    LinkedIn
+                </a>
+
+                <a href="#">
+                    Facebook
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <span>
+                © 2026 Esh7enli. All Rights Reserved.
+            </span>
+
+            <span>
+                Powering the future of mobility ⚡
+            </span>
+
+        </div>
+
+    </footer>
+
+</body>
+
+
+<script>
+const menuToggle = document.querySelector('.menu-toggle');
+const navLinks = document.querySelector('.nav-links');
+
+menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+</script>
+
+
+</html>
+
+
+
+
+
